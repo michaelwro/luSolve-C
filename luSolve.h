@@ -1,7 +1,13 @@
 /*
-HEADER FILE FOR luSolve.h
-Michael Wrona
+
+SOLVE SYSTEM OF EQUATIONS WITH LU-FACTORIZATION
+Code By: Michael Wrona
+Student, B.S. Aerospace Engineering, Iowa State University (Ames, IA)
+
+This is the required header file for the code.
+
 */
+
 
 void print1dArray(int rows, float *arr);
 void print2dArray(int rows, int cols, float **arr);

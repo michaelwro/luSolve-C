@@ -1,11 +1,15 @@
 /*
-SOLVE LINEAR SYSTEM OF EQUATIONS
-Michael Wrona
+SOLVE SYSTEM OF EQUATIONS WITH LU-FACTORIZATION
+Code By: Michael Wrona
+Student, B.S. Aerospace Engineering, Iowa State University (Ames, IA)
+
+
+
 */
 
 #include <stdio.h>
 #include <stdlib.h>
-#include "src/luSolve.h"
+#include "luSolve.h"
 
 
 
@@ -34,11 +38,9 @@ int main(void) {
 
 	// Generate system of equations
 	genRandSystem(n, a, b);
-	printf("Generated system \n");
 
 	// SOLVE SYSTEM
 	luSolve(n, a, b, x);
-	printf("System solved \n");
 
 	// // Print result
 	// print1dArray(n, x);
@@ -51,8 +53,6 @@ int main(void) {
 	free(a);
 	free(b);
 	free(x);
-	printf("Memory freed \n");
 
 	return 0;
 }
-

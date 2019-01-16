@@ -1,11 +1,19 @@
+/*
+
+SOLVE SYSTEM OF EQUATIONS WITH LU-FACTORIZATION
+Code By: Michael Wrona
+Student, B.S. Aerospace Engineering, Iowa State University (Ames, IA)
+
+This file contains functions required for LU-Factorization
+
+*/
+
+
 #include <stdlib.h>
 #include <stdio.h>
-#include <time.h>
+#include <time.h>       // For random number generation
 
-/*
-SOLVE SYSTEM OF EQUATIONS WITH LU-FACTORIZATION
-By: Michael Wrona
-*/
+
 
 // Print 1D column arrays
 void print1dArray(int rows, float *arr) {
@@ -135,7 +143,8 @@ void luSolve(int n, float **arr, float *b, float *x) {
     return;
 }
 
-/*
-index = row * n + col
+/* 
+How to do single value indexing for 2D arrays
+index = row * n + col 
 */
 
