@@ -1,2 +1,2 @@
-# linalg-c
-A collection of common linear algebra algorithms implemented in C
+# luSolve-C
+Use LU-Factorization to solve a system of linear equations. Implemented in C.
