@@ -80,7 +80,7 @@ void luSolve(int n, float **arr, float *b, float *x) {
     for (i = 0; i < n; i++) {
         lu[i] = malloc(n * sizeof(float));
         if (lu[i] == NULL) {
-            printf("CANNOT ALLOCATE, OUT OF MEMORY \n");
+            printf("CANNOT ALLOCATE \"lu\", OUT OF MEMORY \n");
             return;
         }
     }

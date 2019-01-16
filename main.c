@@ -25,7 +25,7 @@ int main(void) {
 
 		// Check if out of memory
 		if (a[i] == NULL) {
-			printf("CANNOT ALLOCATE, OUT OF MEMORY \n");
+			printf("CANNOT ALLOCATE \"a\", OUT OF MEMORY \n");
 			return 0;
 		}
 	}
